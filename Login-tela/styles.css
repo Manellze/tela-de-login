@@ -83,7 +83,7 @@ body *{
 .textfield input::placeholder {
     color: rgb(197, 187, 187);
   }
-  .btn-login, .btn-register{
+  .btn-login{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -96,6 +96,21 @@ body *{
     letter-spacing: 3px;
     cursor: pointer;
     background: #00ff88;
+  }
+  .btn-register{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px  #00ff8052;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background: #00ff88;
+
   }
   .link-cadastro{
     color: #00ff88;

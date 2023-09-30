@@ -1,14 +1,26 @@
+const cardLogin = document.getElementById('card-login');
+const cardRegistro = document.getElementById('registro');
+const trocarDivsLink = document.getElementById('trocarDivs');
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const loginForm = document.getElementById("card-login");
-        const registerForm = document.getElementById("card-register");
-        const linkCadastro = document.querySelector(".link-cadastro a");
+let loginVisivel = true;
 
-        linkCadastro.addEventListener("click", function (e) {
-            e.preventDefault(); // Evita que o link redirecione
+trocarDivsLink.addEventListener('click', (e) => {
+    e.preventDefault();
 
-            loginForm.style.display = "none"; // Esconde a div de login
-            registerForm.style.display = "block"; // Exibe a div de registro
-        });
-    });
+    if (loginVisivel) {
+        cardLogin.style.display = 'none';
+        cardRegistro.style.display = 'block';
+    } else {
+        cardLogin.style.display = 'block';
+        cardRegistro.style.display = 'none';
+    }
+
+    loginVisivel = !loginVisivel;
+});
+
+  document.getElementById("btn-register").addEventListener("click", function() {
+    // Aqui você pode redirecionar o usuário para a próxima etapa
+    window.location.href = "https://www.drogariasaopaulo.com.br/durateston-250mg-1x1ml/p";
+  });
+
 
