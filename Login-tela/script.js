@@ -17,10 +17,13 @@ trocarDivsLink.addEventListener('click', (e) => {
 
     loginVisivel = !loginVisivel;
 });
+// document.getElementById("btn-login").addEventListener("click", function() {
+//   // Aqui você pode redirecionar o usuário para a próxima etapa
+//   window.location.href = "https://www.drogariasaopaulo.com.br/durateston-250mg-1x1ml/p";
+// });
 
-  document.getElementById("btn-register").addEventListener("click", function() {
-    // Aqui você pode redirecionar o usuário para a próxima etapa
-    window.location.href = "https://www.drogariasaopaulo.com.br/durateston-250mg-1x1ml/p";
-  });
-
+//   document.getElementById("btn-register").addEventListener("click", function() {
+//     // Aqui você pode redirecionar o usuário para a próxima etapa
+//     window.location.href = "https://www.drogariasaopaulo.com.br/durateston-250mg-1x1ml/p";
+//   });
 
